@@ -2,7 +2,7 @@
   <image src='/images/avatar.png' class='png' mode='widthFix'></image>
   <!-- <open-data class='png' type="userAvatarUrl"></open-data> -->
   <view style='margin-top:50rpx;' class='text-xl'>for 一只小鸡腿子
-    <text class='text-df'>v0.1</text>
+    <text class='text-df'></text>
   </view>
   <view class='margin-top-sm'>
     <text>By: LVPlum</text>
