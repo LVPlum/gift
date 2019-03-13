@@ -8,4 +8,33 @@
     </view>
   </view>
 </view>
+<view class='cu-card article gift_warp'>
+  <view class='cu-item shadow gift_info'>
+    <view class='content'>
+      <image src="https://img.alicdn.com/bao/uploaded/i3/2200625649546/O1CN01EJhLLU2KO7LF9SyDj_!!2200625649546.jpg_760x760Q50s50.jpg_.webp" mode="aspectFill"></image>
+      <view class='mask'></view>
+      <view class="intor">TSUYAGLA 头发蓬松神器旅行款</view>
+    </view>
+  </view>
+</view>
+<view class="padding-xl">
+  <button bindtap='showModal' data-target="Image" class='cu-btn block bg-black margin-tb-sm lg'>
+    <text class='icon-evaluate'></text><text decode="{{true}}">&ensp;</text>这是一个赶工期的按钮</button>
+</view>
+
+<view class="cu-modal {{modalName=='Image'?'show':''}}">
+  <view class="cu-dialog">
+    <view class="bg-img" style="background-image: url('{{elements[selected].icon}}');height:200px;">
+      <view class="cu-bar justify-end text-white">
+        <view class='action' bindtap='hideModal'>
+          <text class='icon-close '></text>
+        </view>
+      </view>
+    </view>
+    <view class="cu-bar bg-white">
+      <view class='action margin-0 flex-sub  solid-left' bindtap='hideModal'>{{elements[selected].title}}</view>
+    </view>
+  </view>
+</view>
+
 <view class='cu-tabbar-height'></view>

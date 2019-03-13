@@ -6,33 +6,7 @@ Component({
   },
   methods: {
     onLoad(options) {
-      let that = this;
-      wx.showLoading({
-        title: '数据加载中',
-        mask: true,
-      })
-      let i = 0;
-      numDH();
-      function numDH() {
-        if (i < 20) {
-          setTimeout(function () {
-            that.setData({
-              visitTotal: i,
-              forksCount: i,
-              visitTotal: i
-            })
-            i++
-            numDH();
-          }, 20)
-        } else {
-          that.setData({
-            starCount: that.coutNum(999),
-            forksCount: that.coutNum(8888),
-            visitTotal: that.coutNum(77777)
-          })
-        }
-      }
-      wx.hideLoading()
+      console.log(options)
     },
     coutNum(e) {
       if (e > 1000 && e < 10000) {
