@@ -1,0 +1,18 @@
+.text-bar-active {
+  color: #0EBCEF;
+}
+.content {
+  padding:0 30rpx;
+  position: relative;
+}
+.cu-card.article>.cu-item {
+  padding:15rpx 0;
+}
+.mask {
+  width: 240rpx;
+  height: 6.4em;
+  border-radius:6rpx;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 30rpx;
+}

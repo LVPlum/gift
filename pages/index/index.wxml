@@ -1,0 +1,11 @@
+<image src='/images/bannar.png' mode='widthFix' class='png' style='width:100%;height:486rpx'></image>
+<view class='cu-card article gift_warp'>
+  <view class='cu-item shadow gift_info'>
+    <view class='content'>
+      <image src="/images/produce/001.jpg" mode="aspectFill"></image>
+      <view class='mask'></view>
+      <view class="intor">墨守</view>
+    </view>
+  </view>
+</view>
+<view class='cu-tabbar-height'></view>

@@ -1,0 +1,30 @@
+<view class='UCenter-bg'>
+  <image src='/images/avatar.png' class='png' mode='widthFix'></image>
+  <!-- <open-data class='png' type="userAvatarUrl"></open-data> -->
+  <view style='margin-top:50rpx;' class='text-xl'>for 一只小鸡腿子
+    <text class='text-df'>v0.1</text>
+  </view>
+  <view class='margin-top-sm'>
+    <text>By: LVPlum</text>
+  </view>
+  <image src='https://image.weilanwl.com/gif/wave.gif' mode='scaleToFill' class='gif-wave'></image>
+</view>
+<view class='padding flex text-center text-grey bg-white shadow-warp'>
+  <view class="">願你每天都是好心情！</view>
+</view>
+<view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg">
+  <view class="cu-item arrow">
+    <navigator class='content' url='../about/about' hover-class='none'>
+      <image src='/images/logo.png' class='png' mode='aspectFit'></image>
+      <text class='text-grey'>想你所想</text>
+    </navigator>
+  </view>
+  <view class="cu-item arrow">
+    <button class='cu-btn content' open-type='feedback'>
+      <text class='icon-writefill text-cyan'></text>
+      <text class='text-grey'>私语</text>
+    </button>
+  </view>
+</view>
+
+<view class='cu-tabbar-height'></view>
