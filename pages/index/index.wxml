@@ -11,7 +11,7 @@
 <view class='cu-card article gift_warp'>
   <view class='cu-item shadow gift_info'>
     <view class='content'>
-      <image src="https://img.alicdn.com/bao/uploaded/i3/2200625649546/O1CN01EJhLLU2KO7LF9SyDj_!!2200625649546.jpg_760x760Q50s50.jpg_.webp" mode="aspectFill"></image>
+      <image src="https://img.alicdn.com/bao/uploaded/i3/2200625649546/O1CN01EJhLLU2KO7LF9SyDj_!!2200625649546.jpg_760x760Q50s50.jpg" mode="aspectFill"></image>
       <view class='mask'></view>
       <view class="intor">TSUYAGLA 头发蓬松神器旅行款</view>
     </view>
